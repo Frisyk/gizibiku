@@ -27,7 +27,7 @@ export default function Home() {
   
   return (
     <main className="min-h-screen md:w-4/5 mx-auto py-20">
-      <h1 className={knewave.className + "  md:text-6xl text-2xl text-red-800 text-center my-5"}>
+      <h1 className={knewave.className + "  md:text-6xl text-3xl text-red-800 text-center my-5 md:my-10"}>
         Sepuluh Pedoman <br /> Gizi Seimbang
       </h1>
       <div className="list_container text-white w-full flex flex-wrap justify-center gap-10 items-center p-5 py-10">

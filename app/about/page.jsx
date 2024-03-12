@@ -1,11 +1,12 @@
 import React from 'react'
+import { knewave } from '../layout'
 
 function page() {
   return (
-    <div>
-      <h1>Gizibiku</h1>
-      <p>(Gizi Baik Ku)</p>
-    </div>
+    <main className="grid place-content-center min-h-screen text-center w-full">
+      <h1 className={knewave.className + " text-6xl"}>Gizibiku</h1>
+      <p  className="mt-5 text-2xl">Gizi Baik Ku</p>
+    </main>
   )
 }
 

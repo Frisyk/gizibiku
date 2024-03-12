@@ -16,7 +16,7 @@ function Details({ params }) {
           className="md:w-full"
           objectFit="cover" 
         />
-        <h1 className="text-3xl font-bold my-5 text-center capitalize bg-white p-3">{text}</h1>
+        <h1 className="text-3xl font-bold my-5 text-center capitalize bg-yellow-100 p-3">{text}</h1>
         <div className="text-lg mt-3">
           <p>{desc1}</p> <br />
           {desc2 && <p>{desc2}</p>} <br />
