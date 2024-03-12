@@ -5,7 +5,7 @@ const Navigation = () => {
     return (
       <nav className="p-4 fixed w-full bg-red-800 text-white top-0  items-center left-0 flex md:justify-around justify-between z-20">
         <Link href={"/"}>
-        <h1 className="text-2xl uppercase font-semibold">Gizibiku</h1>
+        <h1 className="text-2xl uppercase font-semibold">Gizbiku</h1>
         </Link>
         <Link href={"/about"}>
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-10 h-10">
