@@ -7,7 +7,7 @@ import { tips } from "./components/TipsItems";
 const TipItem = ({ text, imageSrc, colorClass, index }) => (
   <Link
       href={`details/${index}`}
-      className={`item  h-32 relative flex rounded-xl justify-center ${colorClass} items-center  ${
+      className={`w-full lg:w-[30%]  h-32 relative flex rounded-xl justify-center ${colorClass} items-center  ${
       index % 2 === 0 ? "flex-row-reverse" : ""
     }`}
   >
@@ -26,8 +26,8 @@ const TipItem = ({ text, imageSrc, colorClass, index }) => (
 export default function Home() {
   
   return (
-    <main className="min-h-screen home_bg">
-      <h1 className={knewave.className + "  text-4xl text-center my-5"}>
+    <main className="min-h-screen md:w-4/5 mx-auto py-20">
+      <h1 className={knewave.className + "  md:text-6xl text-2xl text-red-800 text-center my-5"}>
         Sepuluh Pedoman <br /> Gizi Seimbang
       </h1>
       <div className="list_container text-white w-full flex flex-wrap justify-center gap-10 items-center p-5 py-10">

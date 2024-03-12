@@ -3,7 +3,7 @@ import Link from 'next/link';
 const Navigation = () => {
 
     return (
-      <nav className="p-4 flex justify-between">
+      <nav className="p-4 fixed w-full bg-red-800 text-white top-0 left-0 flex md:justify-around justify-between z-20">
         <Link href={"/"}>
         <h1 className="text-2xl uppercase font-semibold">Gizibiku</h1>
         </Link>

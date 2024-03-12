@@ -3,7 +3,8 @@
 @tailwind utilities;
 
 .home_bg {
-    background-image: url("../public/bg.jpg");
+    background-image: url("../public/bg1.png");
     background-repeat: repeat;
     background-position: center;
+    background-color: rgb(255, 246, 206);
 }
