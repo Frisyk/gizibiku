@@ -7,7 +7,7 @@ const poppins = Poppins({ subsets: ["latin"], weight: ["300", "500"] });
 export const knewave = Knewave({subsets: ["latin"], weight: ["400"]})
 
 export const metadata = {
-  title: "Gizibiku",
+  title: "Gizbiku",
   description: "Edukasi Gizi Seimbang Remaja Berbasis Website ",
 };
 
