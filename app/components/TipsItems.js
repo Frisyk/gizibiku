@@ -1,19 +1,20 @@
 import breakfast from "../../public/breakfast.jpg";
 import water from "../../public/water.jpg";
 import vegetables from "../../public/sayurbuah.jpg";
-import food from "../../public/aneka.jpg";
 import label from "../../public/label.png";
 import lemak from "../../public/lemak.jpg";
 import pokok from "../../public/pokok.png";
 import protein from "../../public/protein.jpg";
 import sport from "../../public/sport.png";
 import washHand from "../../public/wash.jpg";
+import makan from "../../public/makan.jpg"
 
 export const tips = [
   {
     id: 1,
     text: "Syukuri dan Nikmati Aneka Ragam Makanan",
-    imageSrc: food,
+    imageDetails: "https://lottie.host/3d2c4b7e-7266-4f6b-b497-8dead81be004/JKHKJeGRMy.json", 
+    imageSrc: makan,
     colorClass: "bg-yellow-400",
     desc1: "Kualitas gizi dan kelengkapan zat gizi dipengaruhi oleh keragaman jenis pangan yang dikonsumsi. Semakin beragam jenis pangan yang dikonsumsi semakin mudah untuk memenuhi kebutuhan gizi dan tubuh dapat memperoleh berbagai zat lainnya yang bermanfaat bagi kesehatan. Oleh karena itu, konsumsi aneka ragam makanan merupakan salah satu anjuran penting dalam mewujudkan gizi seimbang.",
     desc2: `Cara menerapkan pesan ini adalah dengan mengonsumsi lima kelompok pangan setiap hari atau setiap kali makan. Kelima kelompok pangan tersebut, yaitu :
@@ -28,6 +29,7 @@ export const tips = [
   {
     id: 2,
     text: "Banyak Makan Sayuran dan Cukup Buah-Buahan",
+    imageDetails: "https://lottie.host/5e9a58fa-b18c-4314-a414-edec7b788cc1/Uh4o9xBkVg.json", 
     imageSrc: vegetables,
     colorClass: "bg-green-400",
     desc1: "Sayuran dan buah-buahan merupakan sumber berbagai vitamin, mineral, dan serat pangan. Vitamin dan mineral dalam sayur dan buah berperan sebagai antioksidan. Sayuran kaya serat, sedangkan buah kaya karbohidrat seperti fruktosa dan glukosa. Konsumsi sayur dan buah penting untuk gizi seimbang.",
@@ -38,6 +40,7 @@ export const tips = [
   {
     id: 3,
     text: "Biasakan Mengonsumsi Lauk Pauk Berprotein Tinggi",
+    imageDetails: "https://lottie.host/b3f132ad-cd3d-4c90-a9b2-d730ea7fdd05/aIDhhU8BBf.json",
     imageSrc: protein,
     colorClass: "bg-red-600",
     desc1: "Lauk pauk terbagi menjadi dua sumber protein, yaitu hewani dan nabati. Protein hewani meliputi daging ruminansia (sapi, kambing, rusa), daging unggas (ayam, bebek), ikan dan seafood, telur, serta susu dan hasil olahannya. Sementara protein nabati berasal dari kacang-kacangan dan hasil olahannya seperti kedelai, tahu, tempe, kacang hijau, dan lain-lain.",
@@ -47,6 +50,7 @@ export const tips = [
   {
     id: 4,
     text: "Biasakan Mengonsumsi Aneka Ragam Makanan Pokok",
+    imageDetails: "https://lottie.host/7d1c01c6-4b75-480e-9ba2-57938fca8613/nUnHsf355X.json",
     imageSrc: pokok,
     colorClass: "bg-yellow-700",
     desc1: "Makanan pokok memiliki kandungan karbohidrat. Contohnya, yaitu beras, kentang, singkong, ubi, talas, garut, sorgum, jewawut, sagu dan produk olahannya. Pada makanan pokok biasanya juga terkandung antara lain vitamin B1 (tiamin), B2 (riboflavin) dan beberapa mineral. Mineral dari makanan pokok ini biasanya mempunyai mutu biologis atau penyerapan oleh tubuh yang rendah.",
@@ -56,6 +60,7 @@ export const tips = [
   {
     id: 5,
     text: "Batasi Konsumsi Pangan Asin, Manis, dan Berlemak",
+    imageDetails: "https://lottie.host/21e1c34e-915f-483b-910f-3abe908bba58/OOdkZPROze.json",
     imageSrc: lemak,
     colorClass: "bg-red-800",
     desc1: "Konsumsi gula, garam, dan lemak yang berlebihan dapat meningkatkan risiko penyakit seperti hipertensi, stroke, diabetes, dan serangan jantung. Peraturan Menteri Kesehatan nomor 30 tahun 2013 mewajibkan pencantuman informasi kandungan gula, garam, dan lemak pada label pangan untuk membantu konsumen memilih makanan sehat.",
@@ -75,6 +80,7 @@ export const tips = [
   {
     id: 6,
     text: "Biasakan Sarapan Pagi",
+    imageDetails: "https://lottie.host/69ff1cef-01b6-4547-824b-f1ad5e26def5/OrNDTJPUmy.json",
     imageSrc: breakfast,
     colorClass: "bg-yellow-600",
     desc1: `Sarapan merupakan makan dan minum saat pagi hari hingga pukul 09.00 untuk memenuhi kebutuhan gizi harian. Manfaat sarapan, yaitu : 
@@ -93,6 +99,7 @@ export const tips = [
   {
     id: 7,
     text: "Biasakan Meminum Air Putih",
+    imageDetails: "https://lottie.host/891a3867-0c36-4009-a60d-8e9a1a00d51b/oy7oOiGq0o.json",
     imageSrc: water,
     colorClass: "bg-blue-800",
     desc1: "Air merupakan salah satu zat gizi makro esensial, yang berarti bahwa air dibutuhkan tubuh dalam jumlah yang banyak untuk hidup sehat, dan tubuh tidak dapat memproduksi air untuk memenuhi kebutuhan tubuh akan air. Sekitar dua-pertiga dari berat tubuh kita adalah air. Air diperlukan untuk pertumbuhan dan perkembangan yang optimal sehingga keseimbangan air perlu dipertahankan dengan mengatur jumlah masukan air dan keluaran air yang seimbang. Persentase kadar air dalam tubuh anak lebih tinggi dibanding dalam tubuh orang dewasa. Sehingga anak memerlukan lebih banyak air untuk setiap kilogram berat badannya dibandingkan dewasa. ",
@@ -102,6 +109,7 @@ export const tips = [
   {
     id: 8,
     text: "Biasakan Membaca Label pada Kemasan Pangan",
+    imageDetails: "https://lottie.host/b10d3f4e-3fc5-4114-806b-81b6891d8585/0qfWZ8sm1w.json",
     imageSrc: label,
     colorClass: "bg-green-400",
     desc1: "Label pangan pada kemasan digunakan agar konsumen mengetahui kandungan bahan apa saja yang terdapat dalam makanan tersebut. Label adalah keterangan tentang isi, jenis, komposisi zat gizi, tanggal kadaluarsa dan keterangan penting lain yang dicantumkan pada kemasan.",
@@ -111,6 +119,7 @@ export const tips = [
   {
     id: 9,
     text: "Cuci Tangan dengan Air Bersih yang Mengalir Menggunakan Sabun",
+    imageDetails: "https://lottie.host/efd065f5-0141-4e21-95dc-2dd63863ba4c/qiWLayywbC.json",
     imageSrc: washHand,
     colorClass: "bg-red-800",
     desc1: "Cuci tangan dengan sabun dan air bersih yang mengalir dengan baik dan benar dapat mencegah kuman dan bakteri yang ada pada tangan. Sehingga, tubuh dapat terhindar dari kuman dan bakteri yang terkontaminasi pada tangan. Hal tersebut, dapat mencegah kuman dan bakteri berpindah dari tangan ke makanan yang akan dikonsumsi dan juga agar tubuh tidak terkena kuman.",
@@ -133,6 +142,7 @@ export const tips = [
   {
     id: 10,
     text: "Melakukan Aktivitas Fisik yang Cukup dan Mempertahankan Berat Badan Normal",
+    imageDetails: "https://lottie.host/77902511-727a-4ea0-bb6d-b0c12ce52625/PI0csbAy9F.json",
     imageSrc: sport,
     colorClass: "bg-blue-700",
     desc1: `Tubuh yang sehat, bugar, dan berat badan normal dapat tercipta dengan melakukan aktivitas fisik rutin. Jenis aktivitas fisik, yaitu : 

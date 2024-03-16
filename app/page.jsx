@@ -7,11 +7,11 @@ import { tips } from "./components/TipsItems";
 const TipItem = ({ text, imageSrc, colorClass, index }) => (
   <Link
       href={`details/${index}`}
-      className={`w-full lg:w-[30%]  h-32 relative flex rounded-xl justify-center ${colorClass} items-center  ${
+      className={`w-full lg:max-w-[30%]  h-32 relative flex rounded-xl justify-center ${colorClass} items-center  ${
       index % 2 === 0 ? "flex-row-reverse" : ""
     }`}
   >
-    <p className="text-lg p-3 text-wrap overflow-auto">{text}</p>
+    <p className="text-lg lg:text-base  p-3 text-wrap overflow-auto">{text}</p>
     <Image
       src={imageSrc}
       alt={text}
